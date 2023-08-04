@@ -1,6 +1,6 @@
 <IfModule mod_rewrite.c> 
 RewriteEngine On 
-RewriteRule ^(.*)$ https://sites.google.com/view/shunya-yamashita/ [R=301,L] 
-RewriteRule ^index\.html(.*)$ https://sites.google.com/view/shunya-yamashita/ [R=301,L] 
-RewriteRule ^index_e\.html(.*)$ https://sites.google.com/view/shunya-yamashita/ [R=301,L] 
+RewriteRule ^(.*)$ https://sites.google.com/view/shunya-yamashita [R=301,L] 
+RewriteRule ^index\.html(.*)$ https://sites.google.com/view/shunya-yamashita [R=301,L] 
+RewriteRule ^index_e\.html(.*)$ https://sites.google.com/view/shunya-yamashita [R=301,L] 
 </IfModule>
